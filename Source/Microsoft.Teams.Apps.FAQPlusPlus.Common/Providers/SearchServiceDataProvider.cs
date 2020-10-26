@@ -46,8 +46,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers
         /// <returns>Task of downloaded data.</returns>
         public async Task SetupAzureSearchDataAsync(string knowledgeBaseId)
         {
-            // IEnumerable<QnADTO> qnaDocuments = await this.qnaServiceProvider.DownloadKnowledgebaseAsync(knowledgeBaseId).ConfigureAwait(false);
-            IEnumerable<QnADTO> qnaDocuments = await this.qnaServiceProvider.DownloadKnowledgebaseAsync("429199bd-14f1-421b-8604-f6263282ec60").ConfigureAwait(false);
+            IEnumerable<QnADTO> qnaDocuments = await this.qnaServiceProvider.DownloadKnowledgebaseAsync(knowledgeBaseId).ConfigureAwait(false);
             string azureJson = this.GenerateFormattedJson(qnaDocuments);
             await this.AddDataToBlobStorageAsync(azureJson).ConfigureAwait(false);
         }
