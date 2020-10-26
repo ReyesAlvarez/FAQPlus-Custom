@@ -376,7 +376,7 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Rating is mandatory , a warning message to the user when rating is not submitted in share feedback activity.</comment>
   </data>
   <data name="TakeATourButtonText" xml:space="preserve">
-    <value>tomar un tour</value>
+    <value>Take a tour</value>
     <comment>Take a tour button available for the users on welcome card, through which user can take a tour on bot functionalities in personal scope. </comment>
   </data>
   <data name="TitleFact" xml:space="preserve">
