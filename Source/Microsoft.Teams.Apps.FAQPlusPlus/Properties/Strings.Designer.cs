@@ -943,7 +943,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Toma un tour.
+        ///   Busca una cadena traducida similar a tomar un tour.
         /// </summary>
         public static string TakeATourButtonText {
             get {
